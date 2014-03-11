@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+    <name>
+        <lang name="default">Developer-kit</lang>
+    </name>
+    <author>
+        <lang name="default">vOFFka, адаптация для alto - Guf</lang>
+    </author>
+    <homepage></homepage>
+    <version>1.0</version>
+    <requires>
+        <alto>
+            <version>0.8</version>
+        </alto>
+        <plugins></plugins>
+        <system>
+            <php>5.3.0</php>
+        </system>
+    </requires>
+    <description>
+        <lang name="default">Легкий шаблон для разработчиков базирующийся на Bootstrap.</lang>
+        <lang name="russian">Легкий шаблон для разработчиков базирующийся на Bootstrap.</lang>
+    </description>
+    <info>
+        <screenshots>
+            <screenshot file="screenshot.png" />
+        </screenshots>
+        <themes>
+            <theme code="default" name="Default" />
+            <theme name="boxed" code="boxed" />
+
+            <theme name="wide" code="wide"/>
+
+        </themes>
+        <wgroups>
+            <wgroup name="right" />
+        </wgroups>
+    </info>
+</skin>
