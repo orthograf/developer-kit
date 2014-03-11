@@ -2,28 +2,8 @@
 
 $config = array();
 
-// ћаксимальна€ вложенность комментов при отображении
-$config['module']['comment']['max_tree'] = 5;
-
-// ќграничение на вывод числа друзей пользовател€ на странице его профил€
-$config['module']['user']['friend_on_profile'] = 18;
-
 /* Theme */
 $config['view']['theme'] = 'default';
-
-/* Grid type:
- * 
- * fluid - резина
- * fixed - фиксированна€ ширина
- */
-$config['view']['grid']['type'] = 'fixed';
-
-/* Fluid settings */
-$config['view']['grid']['fluid_min_width'] = 976; // Min - 976px
-$config['view']['grid']['fluid_max_width'] = 1300;
-
-/* Fixed settings */
-$config['view']['grid']['fixed_width'] = 976;
 
 $config['head']['default']['js'] = Config::Get('assets.ls.head.default.js');
 $config['head']['default']['js'][] = '___path.skin.dir___/js/template.js';
@@ -40,10 +20,10 @@ $config['head']['default']['css'] = array(
 
 /* Structure */
 	"___path.skin.dir___/css/base.css",
-	"___path.frontend.dir___/libs/js/vendor/markitup/skins/default/style.css",
-    "___path.frontend.dir___/libs/js/vendor/markitup/sets/default/style.css",
-    "___path.frontend.dir___/libs/js/vendor/jcrop/jquery.Jcrop.css",
-    "___path.frontend.dir___/libs/js/vendor/prettify/prettify.css",
+	"___path.frontend.dir___/libs/vendor/markitup/skins/default/style.css",
+    "___path.frontend.dir___/libs/vendor/markitup/sets/default/style.css",
+    "___path.frontend.dir___/libs/vendor/jcrop/jquery.Jcrop.css",
+    "___path.frontend.dir___/libs/vendor/prettify/prettify.css",
 	"___path.skin.dir___/css/grid.css",
 	"___path.skin.dir___/css/common.css",
 	"___path.skin.dir___/css/text.css",
